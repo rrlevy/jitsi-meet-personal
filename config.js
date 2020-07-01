@@ -6,7 +6,7 @@ var config = {
 
     hosts: {
         // XMPP domain.
-        domain: 'jitsi-meet.example.com',
+        domain: 'meet.levy.net.br',
 
         // When using authentication, domain for guest users.
         // anonymousdomain: 'guest.example.com',
@@ -28,7 +28,7 @@ var config = {
     },
 
     // BOSH URL. FIXME: use XEP-0156 to discover it.
-    bosh: '//jitsi-meet.example.com/http-bind',
+    bosh: '//meet.levy.net.br/http-bind',
 
     // Websocket URL
     // websocket: 'wss://jitsi-meet.example.com/xmpp-websocket',
@@ -278,7 +278,7 @@ var config = {
     // disable1On1Mode: false,
 
     // Default language for the user interface.
-    // defaultLanguage: 'en',
+    defaultLanguage: 'pt-br',
 
     // If true all users without a token will be considered guests and all users
     // with token will be considered non-guests. Only guests will be allowed to
